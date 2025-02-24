@@ -6,7 +6,7 @@ greet("Bob")
 
 # Intentional errors below
 
-print(greet("Charlie") # Missing closing parenthesis
+print(greet("Charlie")) # Missing closing parenthesis
 
 x = 10
 y = 20
