@@ -1,6 +1,10 @@
+"""This is a simple Python script that demonstrates a basic greet function 
+and some intentional errors for testing purposes."""
+
 def greet(name):
+    """Print a greeting message for the given name."""
     print("Hello, " + name)
-    
+
 greet("Alice")
 greet("Bob")
 
@@ -8,7 +12,7 @@ greet("Bob")
 
 print(greet("Charlie")) # Missing closing parenthesis
 
-x = 10
-y = 20
-result = x + y  # Trying to add a string and integer
-print(result)
+X = 10
+Y = 20
+RESULT = X + Y  # Trying to add a string and integer
+print(RESULT)
